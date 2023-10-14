@@ -6,12 +6,12 @@
         <remove-project name="platform/hardware/samsung/nfc" />
 
         <!-- Sync trees -->
-        <project path="device/samsung" name="eurekadevelopment/android_device_samsung_exynos7885" remote="githublab" revision="android-13" />
+        <project path="device/samsung/exynos7885/a10" name="eurekadevelopment/android_device_samsung_exynos7885/tree/android-13/a10" remote="githublab" revision="android-13" />
         <project path="kernel/samsung/exynos7885" name="eurekadevelopment/Eureka-Kernel-Exynos7885-Q-R-S" remote="githublab" revision="R14.2-AOSP" />
-        <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="githublab" revision="lineage-18.1" />
+        <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="githublab" revision="lineage-20.0" />
         <project path="hardware/samsung_slsi/libbt" name="eurekadevelopment/android_hardware_samsung_slsi_libbt" remote="githublab" revision="android-13" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="eurekadevelopment/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="githublab" revision="lineage-20" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="githublab" revision="lineage-20" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="eurekadevelopment/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="githublab" revision="lineage-20.0" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="githublab" revision="lineage-20.0" />
         <project path="hardware/samsung" name="eurekadevelopment/android_hardware_samsung" remote="githublab" revision="AOSP-13"/>
         <project path="vendor/samsung" name="eurekadevelopment/android_vendor_samsung_exynos7885" remote="githublab" revision="android-13"/>
         
