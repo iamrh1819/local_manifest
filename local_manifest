@@ -13,6 +13,6 @@
 	<project path="hardware/samsung_slsi/libbt" name="iamrh1819/android_hardware_samsung_slsi_libbt" remote="iamrh1819" revision="lineage-21.0" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="iamrh1819/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="iamrh1819" revision="lineage-21.0" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="iamrh1819/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="iamrh1819" revision="lineage-21.0" />
-        <project path="hardware/samsung" name="iamrh1819/android_hardware_samsung" remote="iamrh1819" revision="AOSP-13"/>
+        <project path="hardware/samsung" name="iamrh1819/android_hardware_samsung" remote="iamrh1819" revision="lineage-20"/>
         
 </manifest>
