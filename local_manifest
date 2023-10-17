@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="iamrh1819"
-                fetch="https://github.com/iamrh1819" />
 
         <!-- Sync trees -->
         
-	<project path="device/samsung/a10" name="device_samsung_a10" remote="iamrh1819" revision="tiramisu" />
-	<project path="device/samsung/universal7885-common" name="device_samsung_universal7885-common" remote="iamrh1819" revision="tiramisu" />
-	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="iamrh1819" revision="tiramisu"/>
-	<project path="vendor_samsung_universal7885-common" name="vendor_samsung_universal7885-common" remote="iamrh1819" revision="tiramisu"/>
-        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="iamrh1819" revision="R14.2-AOSP" />
-	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="iamrh1819" revision="lineage-21.0" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="iamrh1819" revision="lineage-21.0" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="iamrh1819" revision="lineage-21.0" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="iamrh1819" revision="lineage-20"/>
+	<project path="device/samsung/a10" name="iamrh1819/device_samsung_a10" remote="github" revision="tiramisu" />
+	<project path="device/samsung/universal7885-common" name="iamrh1819/device_samsung_universal7885-common" remote="github" revision="tiramisu" />
+	<project path="vendor/samsung/a10" name="iamrh1819/vendor_samsung_a10" remote="github" revision="tiramisu"/>
+	<project path="vendor_samsung_universal7885-common" name="iamrh1819/vendor_samsung_universal7885-common" remote="github" revision="tiramisu"/>
+        <project path="kernel/samsung/exynos7885" name="eurekadevelopment/Eureka-Kernel-Exynos7885-Q-R-S" remote="github" revision="R14.2-AOSP" />
+	<project path="hardware/samsung_slsi/libbt" name="iamrh1819/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-21.0" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="iamrh1819/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-21.0" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="iamrh1819/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-21.0" />
+        <project path="hardware/samsung" name="iamrh1819/android_hardware_samsung" remote="github" revision="lineage-20"/>
         
 </manifest>
